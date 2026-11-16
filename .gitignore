@@ -1,0 +1,23 @@
+# Plugin managers / lockfiles
+# lazy-lock.json
+# packer_compiled.lua
+
+# Local / machine-specific files
+lua/user.lua
+*.local.lua
+local.lua
+
+# Caches, undo, swap, etc.
+.cache/
+undo/
+swap/
+backup/
+sessions/
+.netrwhist
+*.swp
+*.swo
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
